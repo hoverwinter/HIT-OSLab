@@ -28,7 +28,7 @@ return：拷贝的字符数。如果name的字符个数超过了23,则返回“�
 	if(len > 23)
 	{
 		// printk("String too long!\n");
-		return -(EINVAL);  //置errno为EINVAL  返回“­-1”
+		return -(EINVAL);  //置errno为EINVAL  返回“­-1”  具体见_syscalln宏展开
 	}
 	strcpy(msg,tmp);
 	//printk(tmp);
