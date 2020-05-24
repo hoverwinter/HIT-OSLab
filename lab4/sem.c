@@ -72,7 +72,7 @@ sem_t* sys_sem_open(const char* name,unsigned int value)
 		tmp[i] = c;
 		if(c =='\0') break;
 	}
-	if(c >= 16) 
+	if(i >= 16) 
 	{ 	
 		printk("Semaphore name is too long!");
 		return NULL;
