@@ -22,6 +22,6 @@
 Resources目录存放相关资源。
 
 最后送上一句话：
-### how do you do
+### how are you!
 
 Just coding system, it's fantastic !
